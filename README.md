@@ -1,48 +1,55 @@
-# Astro Starter Kit: Basics
+# @brangarciaramos
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+¡Bienvenido a mi portafolio!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Soy Brandon García Ramos, desarrollador web especializado en soluciones modernas, flexibles y potentes.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Tecnologías y herramientas
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- **Frontend:** React, Astro, Tailwind CSS, TypeScript
+- **Backend:** Node.js, Express, Laravel
+- **Otras:** Notion, Canva, Cloudflare, Vercel, GitHub, y más
 
-## 🚀 Project Structure
+## 🌟 ¿Qué encontrarás aquí?
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Servicios:** Desarrollo web a medida, automatización, consultoría tecnológica y más.
+- **Proyectos:** Ejemplos reales de mi trabajo y colaboraciones.
+- **Tecnologías:** Herramientas modernas que utilizo para crear soluciones robustas y escalables.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 📦 Instalación y uso
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/tu-repo.git
+   ```
+2. Instala dependencias:
+   ```bash
+   pnpm install
+   ```
+3. Inicia el proyecto en desarrollo:
+   ```bash
+   pnpm dev
+   ```
+4. Abre [http://localhost:4321](http://localhost:4321) en tu navegador.
 
-## 🧞 Commands
+## 📝 Scripts útiles
 
-All commands are run from the root of the project, from a terminal:
+- `pnpm dev` — Inicia el servidor de desarrollo
+- `pnpm build` — Genera la versión de producción
+- `pnpm preview` — Previsualiza la versión de producción
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## 📄 Licencia
 
-## 👀 Want to learn more?
+Este proyecto está bajo la licencia MIT.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 📬 Contacto
+
+- [LinkedIn](https://www.linkedin.com/in/brangarciaramos/)
+- [Twitter](https://twitter.com/brangarciaramos)
+- [Instagram](https://www.instagram.com/brangarciaramos/)
+- [YouTube](https://www.youtube.com/@brangarciaramos)
+- [Sitio web](https://brangarciaramos.com/)
+
+---
+
+> Si tienes alguna idea, proyecto o simplemente quieres conectar, ¡no dudes en escribirme!
