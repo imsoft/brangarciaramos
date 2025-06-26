@@ -1,22 +1,73 @@
+---
+import "../styles/global.css";
+import Footer from "../components/shared/Footer.astro";
+import Navbar from "../components/shared/Navbar.astro";
+---
+
 <!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>
+      @brangarciaramos | Desarrollo web moderno y soluciones digitales
+    </title>
+    <meta
+      name="description"
+      content="Desarrollador web especializado en soluciones modernas, flexibles y potentes. Backend, frontend, automatización y tecnología para tu proyecto. ¡Conoce mis servicios y proyectos!"
+    />
+    <meta
+      name="keywords"
+      content="desarrollador web, desarrollo web, soluciones digitales, backend, frontend, tecnología, automatización, proyectos, servicios, brangarciaramos"
+    />
+    <meta name="author" content="Brandon García Ramos" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://brangarciaramos.com/" />
+    <meta
+      property="og:title"
+      content="@brangarciaramos | Desarrollo web moderno y soluciones digitales"
+    />
+    <meta
+      property="og:description"
+      content="Desarrollador web especializado en soluciones modernas, flexibles y potentes. Backend, frontend, automatización y tecnología para tu proyecto."
+    />
+    <meta
+      property="og:image"
+      content="https://brangarciaramos.com/og-image.jpg"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://brangarciaramos.com/" />
+    <meta
+      name="twitter:title"
+      content="@brangarciaramos | Desarrollo web moderno y soluciones digitales"
+    />
+    <meta
+      name="twitter:description"
+      content="Desarrollador web especializado en soluciones modernas, flexibles y potentes. Backend, frontend, automatización y tecnología para tu proyecto."
+    />
+    <meta
+      name="twitter:image"
+      content="https://brangarciaramos.com/og-image.jpg"
+    />
+  </head>
+  <body>
+    <Navbar />
+    <slot />
+    <Footer />
+  </body>
 </html>
 
 <style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  html,
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>

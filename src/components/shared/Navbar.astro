@@ -1,0 +1,144 @@
+---
+---
+
+<header class="absolute inset-x-0 top-0 z-50">
+  <div class="mx-auto max-w-7xl">
+    <div class="px-6 pt-6 lg:max-w-2xl lg:pr-0 lg:pl-8">
+      <nav
+        class="flex items-center justify-between lg:justify-start"
+        aria-label="Global"
+      >
+        <a href="/" class="-m-1.5 p-1.5">
+          <span class="sr-only">@brangarciaramos</span>
+          <img alt="@brangarciaramos" class="h-12 w-auto" src="/favicon.svg" />
+        </a>
+        <button
+          id="open-menu-btn"
+          type="button"
+          class="-m-2.5 rounded-md p-2.5 text-gray-700 lg:hidden"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="size-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+            data-slot="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+          </svg>
+        </button>
+        <div class="hidden lg:ml-12 lg:flex lg:gap-x-10">
+          <a href="#home" class="text-sm/6 font-semibold text-gray-900">Inicio</a>
+          <a href="#history" class="text-sm/6 font-semibold text-gray-900"
+            >Historia</a
+          >
+          <a href="#services" class="text-sm/6 font-semibold text-gray-900"
+            >Servicios</a
+          >
+          <a href="#projects" class="text-sm/6 font-semibold text-gray-900"
+            >Proyectos</a
+          >
+          <a href="#technology" class="text-sm/6 font-semibold text-gray-900"
+            >Tecnología</a
+          >
+          <a href="#contact" class="text-sm/6 font-semibold text-gray-900"
+            >Contacto</a
+          >
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- Mobile menu, show/hide based on menu open state. -->
+  <div id="mobile-menu" class="lg:hidden" role="dialog" aria-modal="true">
+    <!-- Background backdrop, show/hide based on slide-over state. -->
+    <div class="fixed inset-0 z-50"></div>
+    <div
+      class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
+    >
+      <div class="flex items-center justify-between">
+        <a href="/" class="-m-1.5 p-1.5">
+          <span class="sr-only">@brangarciaramos</span>
+          <img class="h-12 w-auto" src="/favicon.svg" alt="@brangarciaramos" />
+        </a>
+        <button id="close-menu-btn" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+          <span class="sr-only">Close menu</span>
+          <svg
+            class="size-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+            data-slot="icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="mt-6 flow-root">
+        <div class="-my-6 divide-y divide-gray-500/10">
+          <div class="space-y-2 py-6">
+            <a
+              href="#home"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+              >Inicio</a
+            >
+            <a
+              href="#history"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+              >Historia</a
+            >
+            <a
+              href="#services"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+              >Servicios</a
+            >
+            <a
+              href="#projects"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+              >Proyectos</a
+            >
+            <a
+              href="#technology"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+              >Tecnología</a
+            >
+            <a
+              href="#contact"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const openBtn = document.getElementById('open-menu-btn');
+    const closeBtn = document.getElementById('close-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    if (openBtn && closeBtn && mobileMenu) {
+      openBtn.addEventListener('click', () => {
+        mobileMenu.style.display = 'block';
+      });
+      closeBtn.addEventListener('click', () => {
+        mobileMenu.style.display = 'none';
+      });
+      // Asegúrate que el menú esté oculto al cargar
+      mobileMenu.style.display = 'none';
+    }
+  });
+</script>
